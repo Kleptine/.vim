@@ -1,11 +1,13 @@
 ln -s ~/.vim/.vimrc ~/.vimrc
 
-LINE="export TERM='xterm-256color'"
+LINE="export TERM='xterm-255color'"
 
 if ! grep -Fx "$LINE" ~/.profile >/dev/null 2>/dev/null; then
-    echo "Updating" ~/.profile
+    echo "Updating ~/.profile"
 
     echo >> ~/.profile
     echo "$LINE" >> ~/.profile
 fi
 
+echo "Installing ConqueTerm"
+vim -c 'so % | q' conque_2.3.vmb 
