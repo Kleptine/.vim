@@ -10,4 +10,4 @@ if ! grep -Fx "$LINE" ~/.profile >/dev/null 2>/dev/null; then
 fi
 
 echo "Installing ConqueTerm"
-vim -c 'so % | q' conque_2.3.vmb 
+vim -c 'so % | q' downloads/conque_2.3.vmb
