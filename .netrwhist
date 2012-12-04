@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/ubuntu/taggpic/API'
-let g:netrw_dirhist_2='/home/ubuntu/taggpic/datafiles/database10K'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/ubuntu/.vim/bundle/vim-easymotion'
+let g:netrw_dirhist_2='/home/ubuntu/.vim/bundle'
+let g:netrw_dirhist_3='/home/ubuntu'
