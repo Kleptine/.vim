@@ -1,0 +1,393 @@
+
+could not source "None"
+                       E282: Cannot read from "None"
+Searching for "plugin/**/*.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/plugin/**/*.vim"
+chdir(/home/ubuntu/.vim/plugin)
+fchdir() to previous dir
+sourcing "/home/ubuntu/.vim/plugin/conque_term.vim"
+finished sourcing /home/ubuntu/.vim/plugin/conque_term.vim
+chdir(/home/ubuntu/.vim/plugin)
+fchdir() to previous dir
+sourcing "/home/ubuntu/.vim/plugin/smooth_scroll.vim"
+finished sourcing /home/ubuntu/.vim/plugin/smooth_scroll.vim
+Searching for "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/plugin/**/*.vim"
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/getscriptPlugin.vim"
+GetLatestVimScripts is not vi-compatible; not loaded (you need to set nocp)
+finished sourcing /usr/share/vim/vim73/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim73/plugin/gzip.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim73/plugin/matchparen.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim73/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim73/plugin/spellfile.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tohtml.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/zipPlugin.vim
+Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/home/ubuntu/.vim/after/plugin/**/*.vim"
+
+Calling shell to execute: "set nonomatch; vimglob() { while [ $# -ge 1 ]; do echo "$1"; shift; done }; vimglob >/tmp/vx5x8px/0 \$MYVIMRC"
+could not source "$MYVIMRC"
+                           E484: Can't open file $MYVIMRC
+
+
+sourcing ".vimrc"
+Searching for "colors/mustang.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/colors/mustang.vim"
+chdir(/home/ubuntu/.vim/colors)
+fchdir() to previous dir
+line 90: sourcing "/home/ubuntu/.vim/colors/mustang.vim"
+finished sourcing /home/ubuntu/.vim/colors/mustang.vim
+continuing in /home/ubuntu/.vim/.vimrc
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 95: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"
+Searching for "colors/mustang.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/colors/mustang.vim"
+chdir(/home/ubuntu/.vim/colors)
+fchdir() to previous dir
+line 19: sourcing "/home/ubuntu/.vim/colors/mustang.vim"
+Searching for "syntax/syncolor.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 7: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /home/ubuntu/.vim/colors/mustang.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/ubuntu/.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 10: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /home/ubuntu/.vim/colors/mustang.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/ubuntu/.vim/after/syntax/syncolor.vim"
+finished sourcing /home/ubuntu/.vim/colors/mustang.vim
+continuing in /usr/share/vim/vim73/syntax/synload.vim
+finished sourcing /usr/share/vim/vim73/syntax/synload.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "filetype.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/ubuntu/.vim/after/filetype.vim"
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/scripts.vim"
+Searching for "/usr/share/vim/vimfiles/scripts.vim"
+Searching for "/usr/share/vim/vim73/scripts.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim73/scripts.vim"
+finished sourcing /usr/share/vim/vim73/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/usr/share/vim/vimfiles/after/scripts.vim"
+Searching for "/home/ubuntu/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+finished sourcing /usr/share/vim/vim73/syntax/syntax.vim
+continuing in /home/ubuntu/.vim/.vimrc
+Searching for "autoload/pathogen.vim" in "/home/ubuntu/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/autoload/pathogen.vim"
+chdir(/home/ubuntu/.vim/autoload)
+fchdir() to previous dir
+line 99: sourcing "/home/ubuntu/.vim/autoload/pathogen.vim"
+finished sourcing /home/ubuntu/.vim/autoload/pathogen.vim
+continuing in /home/ubuntu/.vim/.vimrc
+Searching for "ftoff.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/ftoff.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/ftoff.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/ftoff.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/ftoff.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/ftoff.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/ftoff.vim"
+Searching for "/usr/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/share/vim/vim73/ftoff.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 2: sourcing "/usr/share/vim/vim73/ftoff.vim"
+finished sourcing /usr/share/vim/vim73/ftoff.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/usr/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/home/ubuntu/.vim/after/ftoff.vim"
+Searching for "filetype.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 3: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/home/ubuntu/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/ubuntu/.vim/after/filetype.vim"
+Searching for "filetype.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/filetype.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 101: sourcing "/usr/share/vim/vim73/filetype.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /home/ubuntu/.vim/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/ubuntu/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/ftplugin.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/ftplugin.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/ftplugin.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/ftplugin.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/ftplugin.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim73/ftplugin.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 101: sourcing "/usr/share/vim/vim73/ftplugin.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin.vim
+continuing in /home/ubuntu/.vim/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/home/ubuntu/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/indent.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/indent.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/indent.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/indent.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/indent.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim73/indent.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 101: sourcing "/usr/share/vim/vim73/indent.vim"
+finished sourcing /usr/share/vim/vim73/indent.vim
+continuing in /home/ubuntu/.vim/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/home/ubuntu/.vim/after/indent.vim"
+finished sourcing .vimrc-- VISUAL --
+
+chdir(/home/ubuntu/.vim)
+fchdir() to previous dir
+                        ".vimrc" 
+".vimrc" 101L, 3011C
+Reading viminfo file "/home/ubuntu/.viminfo" marks
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/scripts.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/scripts.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/scripts.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/scripts.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/scripts.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/scripts.vim"
+Searching for "/usr/share/vim/vimfiles/scripts.vim"
+Searching for "/usr/share/vim/vim73/scripts.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim73/scripts.vim"
+finished sourcing /usr/share/vim/vim73/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/usr/share/vim/vimfiles/after/scripts.vim"
+Searching for "/home/ubuntu/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*vimrc*"
+autocommand call s:StarSetf('vim')
+
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Searching for "syntax/vim.vim syntax/vim/*.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/syntax/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/syntax/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/syntax/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/syntax/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/syntax/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/syntax/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/vim.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/vim/*.vim"
+Searching for "/usr/share/vim/vim73/syntax/vim.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 22: sourcing "/usr/share/vim/vim73/syntax/vim.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 634: sourcing "/usr/share/vim/vim73/syntax/python.vim"
+finished sourcing /usr/share/vim/vim73/syntax/python.vim
+continuing in /usr/share/vim/vim73/syntax/vim.vim
+finished sourcing /usr/share/vim/vim73/syntax/vim.vim
+continuing in function <SNR>16_SynSet
+Searching for "/usr/share/vim/vim73/syntax/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/vim.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/vim/*.vim"
+Searching for "/home/ubuntu/.vim/after/syntax/vim.vim"
+Searching for "/home/ubuntu/.vim/after/syntax/vim/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+Searching for "ftplugin/vim.vim ftplugin/vim_*.vim ftplugin/vim/*.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/ftplugin/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/ftplugin/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/ftplugin/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/ftplugin/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/ftplugin/vim/*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/ftplugin/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/vim.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/vim_*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/vim/*.vim"
+Searching for "/usr/share/vim/vim73/ftplugin/vim.vim"
+chdir(/usr/share/vim/vim73/ftplugin)
+fchdir() to previous dir
+line 17: sourcing "/usr/share/vim/vim73/ftplugin/vim.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin/vim.vim
+continuing in function <SNR>22_LoadFTPlugin
+Searching for "/usr/share/vim/vim73/ftplugin/vim_*.vim"
+Searching for "/usr/share/vim/vim73/ftplugin/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/vim.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/vim_*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/vim/*.vim"
+Searching for "/home/ubuntu/.vim/after/ftplugin/vim.vim"
+Searching for "/home/ubuntu/.vim/after/ftplugin/vim_*.vim"
+Searching for "/home/ubuntu/.vim/after/ftplugin/vim/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+Searching for "indent/vim.vim" in "/home/ubuntu/.vim,/home/ubuntu/.vim/bundle/neocomplcache,/home/ubuntu/.vim/bundle/vim-easymotion,/home/ubuntu/.vim/bundle/vim-powerline,/home/ubuntu/.vim/bundle/vimproc,/home/ubuntu/.vim/bundle/vimshell,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/ubuntu/.vim/after"
+Searching for "/home/ubuntu/.vim/indent/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/neocomplcache/indent/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-easymotion/indent/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vim-powerline/indent/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimproc/indent/vim.vim"
+Searching for "/home/ubuntu/.vim/bundle/vimshell/indent/vim.vim"
+Searching for "/usr/share/vim/vimfiles/indent/vim.vim"
+Searching for "/usr/share/vim/vim73/indent/vim.vim"
+chdir(/usr/share/vim/vim73/indent)
+fchdir() to previous dir
+line 14: sourcing "/usr/share/vim/vim73/indent/vim.vim"
+finished sourcing /usr/share/vim/vim73/indent/vim.vim
+continuing in function <SNR>23_LoadIndent
+Searching for "/usr/share/vim/vimfiles/after/indent/vim.vim"
+Searching for "/home/ubuntu/.vim/after/indent/vim.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+-- INSERT --
+
+1 change; before #1  4 seconds ago
+Already at oldest change
+Already at oldest change
+Already at oldest change
+
+E37: No write since last change (add ! to override)
+E162: No write since last change for buffer "[No Name]"
+"[No Name]" [Modified] line 1 of 2 --50%-- col 1
+
+Writing viminfo file "/home/ubuntu/.viminfo"

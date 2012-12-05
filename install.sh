@@ -9,5 +9,12 @@ if ! grep -Fx "$LINE" ~/.profile >/dev/null 2>/dev/null; then
     echo "$LINE" >> ~/.profile
 fi
 
-echo "Installing ConqueTerm"
+echo "-----------------------------"
+echo "  Installing ConqueTerm"
+echo "-----------------------------"
 vim -c 'so % | q' downloads/conque_2.3.vmb
+
+echo "-----------------------------"
+echo "  Installing submodules"
+echo "-----------------------------"
+git submodule update --init
