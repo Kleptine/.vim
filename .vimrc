@@ -1,4 +1,5 @@
 set nocompatible
+call pathogen#infect()
 
 " ========================================
 "         General
@@ -96,6 +97,5 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 let g:neocomplcache_enable_at_startup = 1
-call pathogen#infect()
 
 filetype plugin indent on
