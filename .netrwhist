@@ -1,18 +1,8 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/mnt'
-let g:netrw_dirhist_2='/mnt/Bundle/bundler'
-let g:netrw_dirhist_3='/mnt/Bundle/taggpic/production'
-let g:netrw_dirhist_4='/mnt/Bundle/taggpic'
-let g:netrw_dirhist_5='/mnt/Bundle/bundler/scripts'
-=======
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/ubuntu/.vim/bundle/vim-easymotion'
-let g:netrw_dirhist_2='/home/ubuntu/.vim/bundle'
-let g:netrw_dirhist_3='/home/ubuntu'
-let g:netrw_dirhist_4='/home/ubuntu/taggpic'
-let g:netrw_dirhist_5='/home/ubuntu/taggpic/server'
-let g:netrw_dirhist_6='/home/ubuntu/taggpic'
-let g:netrw_dirhist_7='/home/ubuntu/taggpic/API'
->>>>>>> 6ec6fe5a4db11ba365b0643f4db53bf2d3a84843
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/ubuntu/.vim/bundle/vim-powerline'
+let g:netrw_dirhist_2='/home/ubuntu/.vim/bundle/vim-powerline/fontpatcher'
+let g:netrw_dirhist_3='/home/ubuntu/.vim'
+let g:netrw_dirhist_4='/home/ubuntu'
+let g:netrw_dirhist_5='/home/ubuntu/taggpic'
+let g:netrw_dirhist_6='/home/ubuntu/taggpic/API'

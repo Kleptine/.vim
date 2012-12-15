@@ -37,7 +37,7 @@ set laststatus=2  " Always show the statusline
 
 
 " Set the color scheme background properly?
-hi Normal ctermbg=White ctermfg=Black guifg=Black guibg=White
+" hi Normal ctermbg=White ctermfg=Black guifg=Black guibg=White
 
 " ========================================
 "         Keymaps
