@@ -18,3 +18,7 @@ echo "-----------------------------"
 echo "  Installing submodules"
 echo "-----------------------------"
 git submodule update --init
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+echo "  Make sure to RESTART YOUR BASH/SSH  "
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
