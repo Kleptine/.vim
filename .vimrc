@@ -35,9 +35,11 @@ set nobackup
 set noswapfile
 set laststatus=2  " Always show the statusline
 
-
 " Set the color scheme background properly?
 " hi Normal ctermbg=White ctermfg=Black guifg=Black guibg=White
+
+" Auto detect the indentation style
+:autocmd BufReadPost * :DetectIndent 
 
 " ========================================
 "         Keymaps
