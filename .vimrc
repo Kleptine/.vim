@@ -8,7 +8,7 @@ call pathogen#infect()
 " --- From http://nvie.com/posts/how-i-boosted-my-vim/
 set hidden        " Allows you to exit when using hidden buffers
 set nowrap        " Don't wrap lines
-set tabstop=2     " A tab is four spaces
+set tabstop=2     " A tab is two spaces
 set backspace=indent,eol,start
                   " Allow backspacing over everything in insert mode
 set expandtab
