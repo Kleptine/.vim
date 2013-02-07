@@ -8,14 +8,14 @@ call pathogen#infect()
 " --- From http://nvie.com/posts/how-i-boosted-my-vim/
 set hidden        " Allows you to exit when using hidden buffers
 set nowrap        " Don't wrap lines
-set tabstop=4     " A tab is four spaces
+set tabstop=2     " A tab is four spaces
 set backspace=indent,eol,start
                   " Allow backspacing over everything in insert mode
 set expandtab
 set autoindent    " Always set autoindenting on
 set copyindent    " Copy the previous indentation on autoindenting
 set number        " Always show line numbers
-set shiftwidth=4  " Number of spaces to use for autoindenting
+set shiftwidth=2  " Number of spaces to use for autoindenting
 set shiftround    " Use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch     " Set show matching parenthesis
 set ignorecase    " Ignore case when searching
@@ -40,6 +40,7 @@ set laststatus=2  " Always show the statusline
 
 " Auto detect the indentation style
 :autocmd BufReadPost * :DetectIndent 
+au BufNewFile,BufRead *.soy set filetype=html
 
 " ========================================
 "         Keymaps
@@ -47,6 +48,7 @@ set laststatus=2  " Always show the statusline
 
 " Efficiency
 inoremap kj <esc>
+inoremap KJ <esc>
 noremap ; :
 let mapleader=","
 
@@ -82,6 +84,8 @@ let g:EasyMotion_leader_key = ','
 " Easy open terminal
 cmap bh ConqueTerm bash
 
+" Chromebook keybindings (can't do a lot of Ctrl-<>)
+nnoremap <C-u> <C-O>
 " ========================================
 "         Colors
 " ========================================
