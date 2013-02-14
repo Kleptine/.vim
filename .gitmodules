@@ -19,3 +19,6 @@
 [submodule "bundle/buftabs"]
 	path = bundle/buftabs
 	url = https://github.com/vim-scripts/buftabs.git
+[submodule "bundle/neocmplcache"]
+	path = bundle/neocmplcache
+	url = https://github.com/Shougo/neocomplcache.git
