@@ -22,3 +22,6 @@
 [submodule "bundle/neocmplcache"]
 	path = bundle/neocmplcache
 	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git

@@ -39,8 +39,32 @@ set laststatus=2  " Always show the statusline
 " hi Normal ctermbg=White ctermfg=Black guifg=Black guibg=White
 
 " Auto detect the indentation style
-:autocmd BufReadPost * :DetectIndent 
 au BufNewFile,BufRead *.soy set filetype=html
+
+" Fold all functions by default for JS
+"set foldmethod=syntax
+"set foldlevelstart=1
+"let javaScript_fold=1         " JavaScript
+
+
+" ========================================
+"         NeoComplCache Config
+" ========================================
+let g:neocomplcache_min_keyword_length = 3
+let g:neocomplcache_fuzzy_completion_start_length = 3
+let g:neocomplcache_enable_fuzzy_completion = 1
+let g:neocomplcache_enable_at_startup = 1
+
+" ========================================
+"         Easy Motion Config
+" ========================================
+let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-=_+[]{}'
+
+" ========================================
+"         NERDTree config
+" ========================================
+nnoremap ,ee :NERDTree<cr>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " ========================================
 "         Keymaps
@@ -78,6 +102,12 @@ set pastetoggle=<C-p>
 nnoremap s :exec "normal i".nr2char(getchar())."\e"<CR>
 nnoremap S :exec "normal a".nr2char(getchar())."\e"<CR>
 
+" Map auto closing braces
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
+
 " Rebinds for EasyMotion
 let g:EasyMotion_leader_key = ','
 
@@ -86,12 +116,25 @@ cmap bh ConqueTerm bash
 
 " Chromebook keybindings (can't do a lot of Ctrl-<>)
 nnoremap <C-u> <C-O>
+
+" Map NeoComplCache autocomplete accept to Tab
+"inoremap <expr><Tab> "\<C-n>"
+inoremap <expr><C-l> neocomplcache#complete_common_string()
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : <SID>check_back_space() ? "\<TAB>" : "\<C-x>\<C-u>"
+  function! s:check_back_space()"{{{
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1] =~ '\s'
+  endfunction"}}
+
+" Buffer switching quick number
+nnoremap <C-B> :buffers<CR>:buffer<Space>
+
 " ========================================
 "         Colors
 " ========================================
 
 " hi link EasyMotionTarget TODO
-" hi EasyMotionTarget ctermbg=none ctermfg=Folded
+"hi EasyMotionTarget ctermbg=none ctermfg=Folded
 " hi EasyMotionShade  ctermbg=none ctermfg=blue
 
 " Load font if enough colors are supported
@@ -104,6 +147,10 @@ if &t_Co > 2 || has("gui_running")
    syntax on
 endif
 
-let g:neocomplcache_enable_at_startup = 1
-
 filetype plugin indent on
+
+
+" ========================================
+"         Boot Commands
+" ========================================
+autocmd vimenter * NERDTree
