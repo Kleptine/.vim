@@ -139,7 +139,7 @@ nnoremap <C-B> :buffers<CR>:buffer<Space>
 
 " Load font if enough colors are supported
 if &t_Co >= 256 || has("gui_running")
-   colorscheme mustang
+   colorscheme solarized
 endif
 
 if &t_Co > 2 || has("gui_running")
