@@ -137,15 +137,28 @@ nnoremap <C-B> :buffers<CR>:buffer<Space>
 "hi EasyMotionTarget ctermbg=none ctermfg=Folded
 " hi EasyMotionShade  ctermbg=none ctermfg=blue
 
-" Load font if enough colors are supported
-if &t_Co >= 256 || has("gui_running")
-   colorscheme solarized
+if &t_Co > 2 || has("gui_running")
+  " switch syntax highlighting on, when the terminal has colors
+  syntax on
+  set background=dark
+  colorscheme mustang
 endif
 
-if &t_Co > 2 || has("gui_running")
-   " switch syntax highlighting on, when the terminal has colors
-   syntax on
+" Load font if enough colors are supported
+if &t_Co >= 256 || has("gui_running")
+
+  " Enabled degraded colorscheme
+  function! DegradeColors()
+    let g:solarized_termcolors=256
+    colorscheme solarized
+  endfunction
+
+  " ShiftK to enable degraded colors
+  nnoremap K :call DegradeColors()<CR>
+
+  colorscheme solarized
 endif
+
 
 filetype plugin indent on
 
