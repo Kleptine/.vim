@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/etc/nginx'
-let g:netrw_dirhist_2='/home/ubuntu/projects/contactme/client'
-let g:netrw_dirhist_3='/etc/nginx'
-let g:netrw_dirhist_4='/home/ubuntu/projects/contactme/client'
-let g:netrw_dirhist_5='/etc/nginx'
-let g:netrw_dirhist_6='/etc/nginx/sites-enabled'
+let g:netrw_dirhist_cnt =0
