@@ -1,4 +1,5 @@
 ln -s ~/.vim/.vimrc ~/.vimrc
+ln -s ~/.vim/.zshrc ~/.zshrc
 
 LINE="export TERM='xterm-256color'"
 
