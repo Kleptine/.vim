@@ -156,6 +156,10 @@ if &t_Co >= 256 || has("gui_running")
   " ShiftK to enable degraded colors
   nnoremap K :call DegradeColors()<CR>
 
+  " For now just degrade the colors by default
+  let g:solarized_termcolors=256
+  colorscheme solarized
+
   colorscheme solarized
 endif
 
@@ -167,3 +171,5 @@ filetype plugin indent on
 "         Boot Commands
 " ========================================
 autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+
