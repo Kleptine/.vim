@@ -51,7 +51,8 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git fasd colored-man colorize extract pip python debian themes)
+plugins=(git colored-man colorize extract pip python debian themes)
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -75,10 +76,6 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Use solarized LS_COLORS
-eval `dircolors ~/.dircolors.ansi-light`
-eval "$(fasd --init posix-alias zsh-hook)"
 
 #Setup emacs to run as a background server that can be connected to quickly.
 export EDITOR="exec emacsclient --alternate-editor=\"\" -c \"$@\""
