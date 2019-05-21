@@ -14,6 +14,7 @@ ZSH_THEME="cypher"
 alias sudo='sudo ' # allow sudo to work for alias's
 alias em="emacsclient"
 
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -79,4 +80,7 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 #Setup emacs to run as a background server that can be connected to quickly.
 export EDITOR="exec emacsclient --alternate-editor=\"\" -c \"$@\""
+
+# Correct directory mistypings
+zstyle ':completion:*' '' matcher-list 'm:{a-z}={A-Z}'
 
