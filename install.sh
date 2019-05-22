@@ -48,7 +48,7 @@ echo "-----------------------------"
 echo "  Linking RC files. "
 echo "-----------------------------"
 ln -s ~/.vim/.vimrc ~/.vimrc
-ln -s ~/.vim/.zshrc ~/.zshrc
+ln -sn ~/.vim/.zshrc ~/.zshrc
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "  Make sure to RESTART YOUR BASH/SSH  "
