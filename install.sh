@@ -43,13 +43,16 @@ echo "-----------------------------"
 echo "  Oh-my-zsh"
 echo "-----------------------------"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s /bin/zsh "$USER"
 
 echo "-----------------------------"
 echo "  Linking RC files. "
 echo "-----------------------------"
 ln -s ~/.vim/.vimrc ~/.vimrc
+rm ~/.zshrc
 ln -sn ~/.vim/.zshrc ~/.zshrc
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "  Make sure to RESTART YOUR BASH/SSH  "
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
